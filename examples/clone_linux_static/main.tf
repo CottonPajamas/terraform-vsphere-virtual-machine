@@ -1,53 +1,54 @@
 variable "datacenter" {
-  type = "string"
+  default = ""
 }
 
 variable "resource_pool" {
-  type = "string"
+  default = ""
 }
 
 variable "datastore" {
-  type = "string"
+  default = ""
 }
 
 variable "network" {
-  type = "string"
+  default = ""
 }
 
 variable "vm_name_prefix" {
-  type = "string"
+  default = ""
 }
 
 variable "vm_count" {
-  type = "string"
+  default = ""
 }
 
 variable "template_name" {
-  type = "string"
+  default = ""
 }
 
 variable "linked_clone" {
-  type = "string"
+  default = ""
 }
 
 variable "domain_name" {
-  type = "string"
+  default = ""
 }
 
 variable "ipv4_network_address" {
-  type = "string"
+  default = ""
 }
 
 variable "ipv4_address_start" {
-  type = "string"
+  default = ""
 }
 
 variable "ipv4_gateway" {
-  type = "string"
+  default = ""
 }
 
 variable "dns_servers" {
-  type = "list"
+#  type = "list"
+  default = ""
 }
 
 variable "template_os_family" {
